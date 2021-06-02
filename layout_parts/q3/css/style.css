@@ -24,11 +24,11 @@
   line-height: 22px;
 }
 
-.q3__tbody tr:nth-child(even) {
+.q3__table tbody tr:nth-child(even) {
   background-color: #ECF1F2;
 }
 
-.q3__tbody tr:last-child {
+.q3__table tbody tr:last-child {
   border-top: #000 dashed  2px;
 }
 /* 回答はここに書いてね */

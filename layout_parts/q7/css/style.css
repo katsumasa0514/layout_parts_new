@@ -7,87 +7,88 @@
   clear: both;
 }
 
-.q7--float .content {
-  float: left;
+.q7--float .q7__content {
   width: 225px;
   font-size: 16px;
+  float: left;
   box-sizing: border-box;
 }
 
-.q7--float .content:last-child {
+.q7--float .q7__content:last-child {
   margin-left: 50px;
 }
 
-.q7--table .container {
+.q7--table .q7__container {
   display: table;
 }
 
-.q7--table .content {
-  display: table-cell;
+.q7--table .q7__content {
   width: 225px;
-  vertical-align: middle;
   font-size: 16px;
-}
-
-.q7--table .content:last-child {
+  vertical-align: middle;
+  display: table-cell;
   padding-left: 50px;
 }
 
-.q7--inlineblock .container {
+.q7--table .q7__content:first-child {
+  padding-left: 0px;
+}
+
+.q7--inlineblock .q7__container {
   font-size: 0;
 }
 
-.q7--inlineblock .content {
-  display: inline-block;
+.q7--inlineblock .q7__content {
   width: 225px;
+  font-size: 16px;
+  display: inline-block;
   vertical-align: middle;
   box-sizing: border-box;
-  font-size: 16px;
 }
 
-.q7--inlineblock .content:last-child {
+.q7--inlineblock .q7__content:last-child {
   margin-left: 50px;
 }
 
-.q7--flex .container {
+.q7--flex .q7__container {
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
 }
 
-.q7--flex .content {
+.q7--flex .q7__content {
   width: 225px;
-  box-sizing: border-box;
   font-size: 16px;
-}
-
-.q7--margin .container {
-  width: 100%;
   box-sizing: border-box;
-  font-size: 0;
 }
 
-.q7--margin .dont-move {
+.q7--margin .q7__container {
+  width: 100%;
+  font-size: 0;
+  box-sizing: border-box;
+}
+
+.q7--margin .q7__dont-move {
+  width: 300px;
   display: inline-block;
   box-sizing: border-box;
-  width: 300px;
   vertical-align: top;
 }
 
-.q7--margin .move {
-  display: inline-block;
-  box-sizing: border-box;
+.q7--margin .q7__move {
   margin-left: -300px;
   padding-left: 350px;
   width: 100%;
+  display: inline-block;
+  box-sizing: border-box;
   vertical-align: top;
 }
 
-.dont-move-text {
+.q7__dont-move-text {
   font-size: 16px;
 }
 
-.move-text {
+.q7__move-text {
   font-size: 16px;
 }
 /* 回答はここに書いてね */

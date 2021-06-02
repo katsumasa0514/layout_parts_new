@@ -9,7 +9,7 @@
   position: relative;
 }
 
-.q5__one, .q5__two, .q5__three, .q5__four, .q5__five, .q5__six, .q5__seven, .q5__eight, .q5__nine {
+.q5__number .cell {
   width: 100px;
   height: 100px;
   line-height: 100px;
@@ -87,8 +87,14 @@
 }
 
 .q5__nine {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  font-weight: 700;
+  font-size: 30px;
   top: 10px;
   left: 10px;
+  text-align: center;
   background-color: #2B69A3;
   position: fixed;
 }

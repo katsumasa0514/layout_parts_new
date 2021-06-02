@@ -14,6 +14,11 @@
   margin-bottom: 20px;
 }
 
+.cell{
+  display: table-cell;
+  padding: 20px 0 20px 0;
+}
+
 .q4__pink-box {
   background-color: #E0ABD9;
 }

@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.q1__clearfix:after {
+.clearfix:after {
   display: block;
   content: "";
   clear: both;
