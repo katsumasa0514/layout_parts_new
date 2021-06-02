@@ -14,11 +14,6 @@
   margin-bottom: 20px;
 }
 
-.q4__pink-box, .q4__orange-box, .q4__blue-box, .q4__red-box, .q4__yellow-box, .q4__green-box{
-  display: table-cell;
-  padding: 20px 0 20px 0;
-}
-
 .q4__pink-box {
   background-color: #E0ABD9;
 }
