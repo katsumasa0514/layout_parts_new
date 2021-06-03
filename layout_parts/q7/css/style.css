@@ -10,12 +10,13 @@
 .q7--float .q7__content {
   width: 225px;
   font-size: 16px;
+  margin-left: 50px;
   float: left;
   box-sizing: border-box;
 }
 
-.q7--float .q7__content:last-child {
-  margin-left: 50px;
+.q7--float .q7__content:first-child {
+  margin-left: 0px;
 }
 
 .q7--table .q7__container {
@@ -25,9 +26,9 @@
 .q7--table .q7__content {
   width: 225px;
   font-size: 16px;
+  padding-left: 50px;
   vertical-align: middle;
   display: table-cell;
-  padding-left: 50px;
 }
 
 .q7--table .q7__content:first-child {
@@ -41,13 +42,14 @@
 .q7--inlineblock .q7__content {
   width: 225px;
   font-size: 16px;
+  margin-left: 50px;
   display: inline-block;
   vertical-align: middle;
   box-sizing: border-box;
 }
 
-.q7--inlineblock .q7__content:last-child {
-  margin-left: 50px;
+.q7--inlineblock .q7__content:first-child {
+  margin-left: 0px;
 }
 
 .q7--flex .q7__container {

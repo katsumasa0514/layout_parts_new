@@ -2,31 +2,31 @@
 
 /* 回答はここに書いてね */
 .q8-transition .q8__content {
-  position: relative;
   margin: 0 auto;
   width: 500px;
   height: 333px;
+  position: relative;
   overflow: hidden;
 }
 
 .q8-transition .q8__mask {
   width: 500px;
   height: 333px;
-  position: absolute;
   bottom: -100%;
   left: 0px;
   transition: all 0.5s;
   background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .8));
+  position: absolute;
 }
 
 .q8-transition .q8__content:hover .q8__mask {
   width: 500px;
   height: 333px;
-  position: absolute;
   bottom: 0px;
   left: 0px;
   background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .8));
   transition: all 0.5s;
+  position: absolute;
 }
 
 .q8-transition .q8__car-img {
@@ -40,14 +40,14 @@
 }
 
 .q8-transition .q8__text {
-  position: absolute;
   bottom: 0px;
   left: 0px;
-  color: white;
   font-size: 16px;
   line-height: 16px;
   padding: 20px;
   word-break: break-all;
+  position: absolute;
+  color: white;
 }
 
 .q8-animation .q8__circle {
