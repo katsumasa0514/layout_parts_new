@@ -8,9 +8,12 @@
   padding: 20px;
   margin: 0 auto;
   position: relative;
+  font-size: 16px;
+  line-height: 16px;
 }
 
-.q9__blowing::before,.q9__blowing::after {
+.q9__blowing::before,
+.q9__blowing::after {
   content: "";
   position: absolute;
   border-style: solid;
@@ -26,11 +29,6 @@
 .q9__blowing::after {
   bottom: -18px;
   left: 30px;
-  border-color: white transparent transparent transparent;
-}
-
-.q9__text {
-  font-size: 16px;
-  line-height: 16px;
+  border-color: #fff transparent transparent transparent;
 }
 /* 回答はここに書いてね */
