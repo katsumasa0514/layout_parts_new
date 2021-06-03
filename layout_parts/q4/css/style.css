@@ -8,15 +8,19 @@
   padding: 20px;
 }
 
-.q4__orangePinkBlue-box {
+.q4__box {
   display: table;
   width: 100%;
-  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.q4__box:first-child {
+  margin-top: 0px;
 }
 
 .cell{
   display: table-cell;
-  padding: 20px 0 20px 0;
+  padding: 20px 0;
 }
 
 .q4__pink-box {
@@ -31,11 +35,6 @@
 .q4__blue-box {
   background-color: #B6D8ED;
   width: 100px;
-}
-
-.q4__yellowRedGreen-box {
-  display: table;
-  width: 100%;
 }
 
 .q4__red-box {
